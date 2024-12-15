@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  .header {
+    height: 500px;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(108, 105, 105, 0.34)), url(image/Background.jpg);
+    background-size: cover;
+    margin-bottom: 5%;
+    display: flex;
+    background-position: center;
+
+  }
+  .txt{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #f2f5f2;
+    font-size: 60px;
+}
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+  
+  h2 {
+    margin: 20px 0 10px;
+    color: #333;
+  }
+  
+  button {
+    background-color: #5c0e98;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: #a566cd;
+  }
+  
+  /* Medicine Section Styles */
+  #medicines {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .category {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .category img {
+    max-width: 80px;
+    max-height: 80px;
+    margin-right: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .category label {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .category input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Table Styles */
+  #cart-table {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  #cart-table th, #cart-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #cart-table th {
+    background-color: #5c0e98;
+    color: white;
+  }
+  
+  #cart-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  #cart-table tfoot {
+    font-weight: bold;
+  }
+  
+  #cart-table tfoot td {
+    background-color: #f5f5f5;
+  }
+  
+  /* Button Section */
+  div {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .category {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .category img {
+      margin-bottom: 10px;
+    }
+  
+    #cart-table {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  }
+  

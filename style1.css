@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+.header{
+    height: 500px;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0, 0, 0, 0.34)), url(image/Background.jpg);
+    background-size: cover;
+    margin-bottom: 5%;
+    display: flex;
+    background-position: center;
+   
+    
+    
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+.txt{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #030303;
+}
+.txt h1{
+    font-size: 70px;
+    margin-top: 25px;
+    text-shadow: #f2f2f2;
+    color: #f0f0f0;
+}
+h1 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;   }
+    th {
+        background-color: #f2f2f2;
+    }
+    form {
+        margin-top: 20px;
+    }
+    label {
+        display: block;
+        margin: 10px 0 5px;
+    }
+    input, select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    button {
+        background-color: #5c0e98;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    button a{
+        color: white;
+    }
+    button:hover {
+    background-color: #a566cd;
+    }
+
+    .payment-container {
+        max-width: 400px;
+        margin: auto;
+    }
+    
+    .hidden {
+        display: none;
+    }
